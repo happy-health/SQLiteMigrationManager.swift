@@ -38,3 +38,6 @@ Podfile.lock
 
 # AppCode
 .idea/
+
+# Bundler
+vendor
