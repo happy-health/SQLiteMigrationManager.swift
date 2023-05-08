@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.author             = { "Vincent Garrigues" => "vincent.garrigues@gmail.com" }
   s.social_media_url   = "http://twitter.com/garriguv"
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
   s.osx.deployment_target = '10.15'
-  s.watchos.deployment_target = '4.0'
+  s.watchos.deployment_target = '11.0'
   s.default_subspec  = 'standard'
 
   s.module_name  = 'SQLiteMigrationManager'
