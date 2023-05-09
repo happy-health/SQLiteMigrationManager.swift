@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'standard' do |ss|
    ss.source_files = "Sources"
-   ss.dependency "SQLite.swift", "~> 0.13.0"
+   ss.dependency "SQLite.swift", "0.13.3-gh"
   end
 end
