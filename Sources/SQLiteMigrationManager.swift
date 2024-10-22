@@ -3,7 +3,7 @@ import SQLite
 
 private struct MigrationDB {
   static let table = Table("schema_migrations")
-  static let version = Expression<Int64>("version")
+  static let version = SQLite.Expression<Int64>("version")
 }
 
 /// Interface for managing migrations for a SQLite database accessed via `SQLite.swift`.
@@ -67,8 +67,8 @@ public struct SQLiteMigrationManager {
    */
   public func hasMigrationsTable() -> Bool {
     let sqliteMaster = Table("sqlite_master")
-    let type = Expression<String>("type")
-    let name = Expression<String>("name")
+    let type = SQLite.Expression<String>("type")
+    let name = SQLite.Expression<String>("name")
 
     do {
       let tableCount = try db.scalar(sqliteMaster.filter(type == "table" && name == "schema_migrations").count)
