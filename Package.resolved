@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "SQLite.swift",
-        "repositoryURL": "https://github.com/stephencelis/SQLite.swift.git",
+        "repositoryURL": "https://github.com/happy-health/SQLite.swift.git",
         "state": {
           "branch": null,
-          "revision": "9af51e2edf491c0ea632e369a6566e09b65aa333",
-          "version": "0.13.0"
+          "revision": "fa97b4b121b4d74cdce0adfa0d12e6e5788d0e10",
+          "version": "0.13.3-gh"
         }
       }
     ]
