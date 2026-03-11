@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "SQLite.swift",
-        "repositoryURL": "https://github.com/happy-health/SQLite.swift.git",
+        "repositoryURL": "git@github.com:happy-health/SQLite.swift.git",
         "state": {
           "branch": null,
           "revision": "fa97b4b121b4d74cdce0adfa0d12e6e5788d0e10",
